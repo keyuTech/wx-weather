@@ -1,0 +1,86 @@
+.head {
+  color: #fff;
+  background: #328cd5;
+}
+.intro {
+  display: flex;
+  padding: 10px 0;
+}
+.intro .city {
+  flex: 1;
+  justify-content: flex-start;
+  padding-left: 20rpx;
+}
+.intro .update {
+  flex: 1;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 20rpx;
+}
+.main .temp {
+  font-size: 100rpx;
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.main .weather {
+  font-size: 36rpx;
+  display: flex;
+  justify-content: center;
+}
+.details {
+  display: flex;
+}
+.details-left, .details-right {
+  flex: 1;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.details-left>view, .details-right>view {
+  display: flex;
+  justify-content: center;
+  margin: 20rpx;
+}
+
+
+
+
+.wrap {
+  display: flex;
+  text-align: center;
+}
+.hour {
+  flex: 1;
+}
+.hour>image {
+  height: 60rpx;
+  width: 60rpx;
+}
+
+
+.suggestion image {
+  height: 120rpx;
+  width: 120rpx;
+  opacity: 0.5;
+}
+.suggestion>view {
+  display: flex;
+  height: 180rpx;
+  padding-top: 40rpx;
+  padding-left: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.suggestion>view:last-child {
+  border-bottom: none;
+}
+.suggestion .info {
+  flex: 1;
+  margin-left: 20rpx;
+}
+.info .title {
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+.info .detail {
+  color: #aaa;
+}

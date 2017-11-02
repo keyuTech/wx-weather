@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+}
+.item>view {
+  display: flex;
+  flex: 1;
+  height: 120rpx;
+  border-top: 1px solid #ccc;
+  background-color: #328cd5;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+image {
+  height: 60rpx;
+  width: 60rpx;
+}

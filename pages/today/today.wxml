@@ -1,0 +1,76 @@
+
+<scroll-view scroll-y>
+  <view class="head">
+    <view class="intro">
+      <view class="city">北京</view>
+      <view class="update">30分钟前</view>
+    </view>
+    <view class="main">
+      <view class="temp">34°C</view>
+      <view class="weather">晴</view>
+      <view class="details">
+        <view class="details-left">
+          <view class="PM">PM2.5 24优</view>
+          <view class="wind-power">风力 2级</view>
+        </view>
+        <view class="details-right">
+          <view class="wind-direction">风向 西南</view>
+          <view class="humidity">湿度 60</view>
+        </view>
+      </view>
+      <view scroll-x class="hourly">
+        <view class="wrap">
+        <!-- wx:for="{{}}"" wx:for-item="item" -->
+          <view class="hour">
+            <view class="current-time">11点</view>
+            <image src="../../images/weather/0.png"></image>
+            <view class="current-temp">11°</view>
+          </view>
+          <view class="hour">
+            <view class="current-time">11点</view>
+            <image src="../../images/weather/0.png"></image>
+            <view class="current-temp">11°</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="suggestion">
+    <view class="car_washing">
+      <image src="../../images/background/car_washing.png" />
+      <view class="info">
+        <view class="title">不宜</view>
+        <view class="detail">不宜洗车不宜洗车不宜洗车不宜洗车不宜洗车</view>
+      </view>
+    </view>
+    <view class="dressing">
+      <image src="../../images/background/dressing.png" />
+      <view class="info">
+        <view class="title">炎热</view>
+        <view class="detail">炎热炎热炎热炎热炎热炎热炎热炎热炎热炎热</view>
+      </view>
+    </view>
+    <view class="flu">
+      <image src="../../images/background/flu.png" />
+      <view class="info">
+        <view class="title"></view>
+        <view class="detail"></view>
+      </view>
+    </view>
+    <view class="restriction">
+      <image src="../../images/background/restriction.png" />
+      <view class="info">
+        <view class="title"></view>
+        <view class="detail"></view>
+      </view>
+    </view>
+    <view class="sport">
+      <image src="../../images/background/sport.png" />
+      <view class="info">
+        <view class="title"></view>
+        <view class="detail"></view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+

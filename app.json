@@ -1,12 +1,31 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/detail/detail"
+    "pages/today/today",
+    "pages/future/future"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#328cd5",
+    "navigationBarTitleText": "天天天气预报",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#ccc",
+    "selectedColor": "#328cd5",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/today/today",
+        "text": "今日",
+        "iconPath": "images/today.png",
+        "selectedIconPath": "images/today-select.png"
+      },
+      {
+        "pagePath": "pages/future/future",
+        "text": "近期",
+        "iconPath": "images/future.png",
+        "selectedIconPath": "images/future-select.png"
+      }
+    ]
   }
 }

@@ -1,0 +1,29 @@
+<view scroll-y>
+  <view class="item">
+    <view class="weeks">周四</view>
+    <view class="weather">多云/多云</view>
+    <view class="image">
+      <image src="../../images/weather/0.png"></image>
+      <image src="../../images/weather/0.png"></image>
+    </view>
+    <view class="temperature">23°/10°</view>
+  </view>
+  <view class="item">
+    <view class="weeks">周四</view>
+    <view class="weather">多云/多云</view>
+    <view class="image">
+      <image src="../../images/weather/0.png"></image>
+      <image src="../../images/weather/0.png"></image>
+    </view>
+    <view class="temperature">23°/10°</view>
+  </view>
+  <view class="item">
+    <view class="weeks">周四</view>
+    <view class="weather">多云/多云</view>
+    <view class="image">
+      <image src="../../images/weather/0.png"></image>
+      <image src="../../images/weather/0.png"></image>
+    </view>
+    <view class="temperature">23°/10°</view>
+  </view>
+</view>
