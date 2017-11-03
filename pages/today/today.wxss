@@ -51,6 +51,7 @@
 }
 .hour {
   flex: 1;
+  margin-bottom: 20rpx;
 }
 .hour>image {
   height: 60rpx;
